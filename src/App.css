@@ -39,13 +39,16 @@ nav ul li {
 
 /* Intro */
 #intro{
-  background: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1565324686/business-2717063_1920.jpg)
+  background: linear-gradient(
+    rgba(8, 8, 8, 0.753), 
+    rgba(24, 23, 23, 0.562)
+  ) , url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1565324686/business-2717063_1920.jpg)
   ;
   text-align: center;
   height: 80vh;
   background-size: cover;
 
-  /* color: #ffffff; */
+  color: #ffffff;
 
 }
 
