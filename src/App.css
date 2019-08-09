@@ -1,5 +1,5 @@
 body{
-  margin: o;
+  margin: 0;
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
@@ -11,9 +11,10 @@ body{
 
 }
 
+/* menu */
 .menu{
   background: #ffffff;
-  padding: 9px 20px;
+  padding: 0px 20px;
 }
 
 .menu .contenedor{
@@ -34,4 +35,55 @@ nav ul li{
 
 nav ul li {
     text-decoration: none;
+}
+
+/* Intro */
+#intro{
+  background: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1565324686/business-2717063_1920.jpg)
+  ;
+  text-align: center;
+  height: 80vh;
+  background-size: cover;
+
+  /* color: #ffffff; */
+
+}
+
+#intro h1{
+  font-size: 73px;
+  font-weight: normal;
+  padding-top: 60px;
+  margin: 0px;
+}
+
+#intro p{
+  
+  font-size: 18px;
+  line-height: 36px;
+  width: 60%;
+  margin: auto;
+
+}
+
+#intro .view{
+  
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: transparent;
+  padding: 11px;
+}
+
+#intro .contact{
+  
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 11px;
+  background: #c39d63;
+
+}
+#intro .botones{
+  margin-top: 80px;
+  }
+#intro .botones button{
+  margin-right: 20px;
 }

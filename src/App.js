@@ -1,14 +1,16 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import './App.css';
-import Header from './components/Header'
+import Header from './components/Header';
+import Intro from './components/Intro'
 
 function App() {
   return (
-    <div className="">
-      <Header className="">
+    <Fragment>
+      <Header/>
+      <Intro/>
        
-      </Header>
-    </div>
+      
+    </Fragment>
   );
 }
 
