@@ -88,5 +88,49 @@ nav ul li {
   margin-top: 80px;
   }
 #intro .botones button{
-  margin-right: 20px;
+  margin-right: 50px;
 }
+
+#about{
+  padding: 90px 0;
+}
+
+#about .contenedor{
+  display: flex;
+  justify-content: center;
+}
+
+.about{
+  color: #bfbfbf;
+  letter-spacing: 2px;
+  font-weight: 700;
+
+}
+
+hr{
+  width: 40px;
+  float:left;
+  border-color: #c29d63
+}
+
+#about h2{
+  margin-top: 50px;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+#about .texto{
+  font-size: 17px;
+  color: #939393;
+  line-height:30px;
+  width: 88%;
+}
+
+#about .izquierda{
+  width: 75%;
+}
+
+#about img{
+  width: 600px;
+}
+
