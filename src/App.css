@@ -4,40 +4,43 @@ body{
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.contenedor{
+.containergrid{
   width: 90%;
   max-width:1200px;
   margin: auto;
-
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 
-/* menu */
 .menu{
   background: #ffffff;
   padding: 0px 20px;
 }
 
-.menu .contenedor{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+nav {
+   text-align: end;
+}
+
+
+nav ul{
+    display: inline-grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 30px;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 20px;
+  text-decoration: none;
+  text-align: end;
 }
 
 header .logo{
   font-size: 23px;
   font-weight: bold;
-}
-nav ul li{
-  display: inline-block;
-  margin: 0 20px;
-  text-decoration: none;
+  margin-top: 30px;
 }
 
-nav ul li {
-    text-decoration: none;
-}
-
-/* Intro */
 #intro{
   background: linear-gradient(
     rgba(8, 8, 8, 0.753), 
@@ -45,7 +48,7 @@ nav ul li {
   ) , url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1565324686/business-2717063_1920.jpg)
   ;
   text-align: center;
-  height: 80vh;
+  height: 500px;
   background-size: cover;
 
   color: #ffffff;
@@ -73,14 +76,14 @@ nav ul li {
   color: #ffffff;
   border: 1px solid #ffffff;
   background: transparent;
-  padding: 11px;
+  padding: 11px 30px;
 }
 
 #intro .contact{
   
   color: #ffffff;
   border: 1px solid #ffffff;
-  padding: 11px;
+  padding: 11px 30px;
   background: #c39d63;
 
 }
@@ -89,16 +92,20 @@ nav ul li {
   }
 #intro .botones button{
   margin-right: 50px;
+} 
+
+#about .contenedor{
+  width: 90%;
+  max-width:1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 #about{
-  padding: 90px 0;
+  padding: 42px 0;
 }
 
-#about .contenedor{
-  display: flex;
-  justify-content: center;
-}
 
 .about{
   color: #bfbfbf;
@@ -134,3 +141,119 @@ hr{
   width: 600px;
 }
 
+/* Woks */
+#works{
+  background:#1f1f1f;
+  padding: 10px;
+}
+
+#works .contenedor{
+  width: 90%;
+  max-width:1200px;
+  margin: auto;
+    
+}
+
+#works .linea1{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background: #ffffff;
+  text-align: center;
+}
+
+#works .foto{
+  background: url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1565322999/business-1839876_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#works li{
+  list-style: none;
+}
+
+#works .titulo{
+  color: #c29d63;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#works .tecnologia{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#works ul{
+  margin: 22px;
+  padding: 0;
+}
+
+#works .descripcion{
+  color: #939393;
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+/* #contacto */
+
+#contacto{
+  color: #ffffff;
+  background: linear-gradient(
+    rgba(8, 8, 8, 0.753), 
+    rgba(24, 23, 23, 0.562)
+  ) , url(https://res.cloudinary.com/dzxpqumj0/image/upload/v1565324686/business-2717063_1920.jpg)
+  ;
+  text-align: center;
+  padding: 90px 0;
+}
+
+#contacto .contenedor{
+  width: 90%;
+  max-width:1200px;
+  margin: auto;
+}
+#contacto .formulario{
+  background: #1f1f1f;
+  padding: 77px 187px;
+}
+
+#contacto button{
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 11px 30px;
+  background: #c39d63;
+  width: 100px;
+
+}
+
+#contacto h3{
+  font-size: 23px;
+  font-weight: 100;
+  margin: 0;
+}
+
+#contacto .formulario p{
+  opacity: 0.8;
+  width: 70%;
+  margin: auto;
+}
+
+#contacto form{
+  margin-top: 2 0px;
+}
+
+input, textarea {
+  /* width: 72%; */
+  border: 0;
+  background: #111111;
+  padding: 15px;
+  
+}
+
+#contacto  .grid-container {
+  display: grid;
+ 
+  grid-row-gap: 10px;
+  text-align: center;
+  
+  
+}
